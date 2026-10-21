@@ -10,12 +10,18 @@
 <main>
 <nav class="lang"><a href="../">한국어</a> · <strong>English</strong> · <a href="../ja/">日本語</a></nav>
 <h1>Harumung Privacy Policy</h1>
-<p class="meta">Effective: October 21, 2026</p>
+<p class="meta">Effective: October 22, 2026</p>
 
 <p>90ms (“we”) respects the privacy of everyone who uses the Android app <strong>Harumung</strong> (the “app”). This policy explains what information the app handles, where it stays and how it is used.</p>
 
 <h2>1. Information we collect</h2>
 <p>The app has no sign-up or login, and we run no server that receives your information. Your records, special days, memos, daily reviews, pet and garden data and settings are stored <strong>only on your device</strong> and are never sent to us. We do not view, keep or share them.</p>
+<p>The one exception: when the app crashes, the following crash report reaches us through Google’s Firebase Crashlytics so we can find and fix the cause. It never includes the records, memos or other content you enter.</p>
+<ul>
+<li>where in the code the error happened (stack trace) and the app’s state at that moment (app version, memory, orientation and similar)</li>
+<li>device information (model, OS version and similar)</li>
+<li>a Crashlytics installation identifier, used to count how many installs a crash affects; it does not identify you or your device</li>
+</ul>
 
 <h2>2. Ads and third-party services (Google AdMob)</h2>
 <p>The app is free and shows ads from Google AdMob. To serve and measure ads, Google may collect and process:</p>
@@ -33,7 +39,7 @@
 <li><strong>Calendar</strong> (optional): when you turn on external calendar sync, the app shows events from your device calendars and saves the records you choose to the calendar you pick. This happens on your device and nothing is sent to us. If that calendar syncs with an account such as Google Calendar, that service’s policy applies to the sync. If you tap Sync now or turn on automatic sync in Calendar connections, the app asks your device to sync that calendar account.</li>
 <li><strong>Notifications, exact alarms and start at boot</strong>: to deliver the record reminders, daily reflection and check-in reminders, morning briefing and evening preview you set on time, and keep them scheduled after a restart.</li>
 <li><strong>Full-screen notifications</strong> (optional): used only if you turn on the pet reminder screen.</li>
-<li><strong>Internet and network state</strong>: to load ads and check your ad consent status.</li>
+<li><strong>Internet and network state</strong>: to load ads, check your ad consent status and send the crash reports in section 1.</li>
 <li><strong>App lock</strong> (optional): uses your device’s screen lock and biometric prompt. The app never accesses or stores fingerprints, face data or other biometric information.</li>
 </ul>
 
@@ -45,10 +51,10 @@
 </ul>
 
 <h2>5. Retention and deletion</h2>
-<p>App data is removed from your device when you delete it in the app or uninstall the app. Because we keep no user data, there is nothing for us to delete. Information Google processes for ads is retained under Google’s policies.</p>
+<p>App data is removed from your device when you delete it in the app or uninstall the app. Because we keep no user data, there is nothing for us to delete. Crash reports from section 1 are kept in Firebase for 90 days and then deleted. Information Google processes for ads is retained under Google’s policies.</p>
 
 <h2>6. Sharing</h2>
-<p>We do not share your personal information with third parties or have anyone process it for us. Google collects and processes information directly through the ad SDK in the app, as described in section 2, and it may be transferred to Google’s servers outside your country. In Google Play’s Data safety section, this information the ad SDK sends to Google is listed as “shared”.</p>
+<p>We do not share your personal information with third parties. Crash reports (section 1) are processed for us by Google LLC’s Firebase Crashlytics; when a crash happens they are sent over the network to Google’s servers, which may be in the United States or other countries, and kept for 90 days. Google also collects and processes information directly through the ad SDK in the app, as described in section 2, and it may be transferred to Google’s servers outside your country. In Google Play’s Data safety section, this information the ad SDK sends to Google is listed as “shared”.</p>
 
 <h2>7. Children</h2>
 <p>The app is not directed to children under 13, and we do not knowingly collect information from them.</p>
