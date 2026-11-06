@@ -10,20 +10,29 @@
 <main>
 <nav class="lang"><a href="../">한국어</a> · <strong>English</strong> · <a href="../ja/">日本語</a></nav>
 <h1>Harumung Privacy Policy</h1>
-<p class="meta">Effective: October 30, 2026</p>
+<p class="meta">Effective: November 6, 2026</p>
 
 <p>90ms (“we”) respects the privacy of everyone who uses the Android and iOS app <strong>Harumung</strong> (the “app”). This policy explains what information the app handles, where it stays and how it is used.</p>
 
 <h2>1. Information we collect</h2>
-<p>The app has no sign-up or login. Your records, special days, memos, daily reviews, pet and garden data and settings are stored <strong>only on your device</strong> and are never sent to us. We do not view, keep or share them.</p>
-<p>The one exception: when the app crashes, the following crash report reaches us through Google’s Firebase Crashlytics so we can find and fix the cause. It never includes the records, memos or other content you enter.</p>
+<p>The app has no sign-up or login. What you write in records, special days, memos and daily reviews, and names you give, are stored <strong>on your device</strong> and are never sent to us. We do not view, keep or share that content. Pet and garden data and settings are also stored on your device, but the usage statistics below may include predefined values such as the type of feature or setting you choose, or whether it is on.</p>
+<p>When the app crashes, the following crash report reaches us through Google’s Firebase Crashlytics so we can find and fix the cause. It never includes the records, memos or other content you enter.</p>
 <ul>
 <li>where in the code the error happened (stack trace) and the app’s state at that moment (app version, memory, orientation and similar)</li>
 <li>device information (model, OS version and similar)</li>
 <li>a Crashlytics installation identifier, used to count how many installs a crash affects; it does not identify you or your device</li>
 </ul>
 
-<p>Also, only when you send feedback yourself from <strong>My records › Settings › Send feedback</strong>, the following reaches us so we can answer you and find and fix problems in the app. Nothing is sent if you don’t send feedback.</p>
+<p><strong>App usage statistics (from version 1.1.3)</strong>: we use Google Analytics for Firebase (GA4) to understand which screens and features are used and improve the app. When usage statistics are on, the following is sent to Google and made available to us as statistics.</p>
+<ul>
+<li>App activity: events such as app launches, screen views, feature use and ad impressions; predefined values such as the feature type or result, whether a setting is on, and count or duration ranges</li>
+<li>App and device information: app version, device model, OS version, language and similar information. Google uses your connection’s IP address to estimate a coarse location, such as country or region, and operate the service, then discards the raw IP address. The app does not collect GPS or other precise location.</li>
+<li>App-instance ID: a random identifier Google generates for each app installation to count installations and calculate usage statistics. We do not link it to your name, email address or a signed-in account.</li>
+</ul>
+<p>Usage statistics never include what you write in records, memos or reviews, names you give, the contents of external calendar events, search terms, your review mood, exact record dates or times, or record IDs. We disable advertising ID (Android advertising ID and IDFA) and IDFV collection for these statistics and do not use the statistics for personalized advertising. This is separate from the ad SDK’s processing in section 2.</p>
+<p>Usage statistics are on by default. You can turn them off at any time in <strong>My records › Settings › Usage statistics › Send usage statistics</strong>. After applying your choice, the app stops collecting and sending new usage statistics; this does not immediately delete previously collected information (see section 5 for retention). Where consent is required, statistics are sent only when the relevant consent has been given. The choice is stored separately on each device, and turning it off does not limit any other app feature.</p>
+
+<p>Also, only when you send feedback yourself from <strong>My records › Settings › Send feedback</strong>, the following reaches us so we can answer you and find and fix problems in the app. No information is sent through this feature if you don’t send feedback.</p>
 <ul>
 <li>Your feedback (the text you write)</li>
 <li>An email address for a reply (optional; only if you enter it and agree)</li>
@@ -48,7 +57,7 @@
 <li><strong>Calendar</strong> (optional; full calendar access on iOS): when you turn on external calendar sync, the app shows events from your device calendars and saves the records you choose to the calendar you pick. This happens on your device and nothing is sent to us. If that calendar syncs with an account such as Google Calendar, that service’s policy applies to the sync. On Android, if you tap Sync now or turn on automatic sync in Calendar connections, the app asks your device to sync that calendar account. On iOS, the app reads and writes the iCloud, Google and other calendars added to your device in the same way, on your device, and iOS handles the account sync.</li>
 <li><strong>Notifications</strong> (with exact alarms and start at boot on Android): to deliver the record reminders, daily reflection and check-in reminders, morning briefing and evening preview you set on time, and keep them scheduled after a restart. Notifications are scheduled on your device and do not go through any server.</li>
 <li><strong>Full-screen notifications</strong> (Android, optional): used only if you turn on the pet reminder screen.</li>
-<li><strong>Internet and network state</strong>: to load ads, check your ad consent status, and send the crash reports in section 1 and the feedback you send.</li>
+<li><strong>Internet and network state</strong>: to load ads, check your ad consent status, and send the crash reports, enabled usage statistics and feedback described in section 1.</li>
 <li><strong>App lock</strong> (optional): uses your device’s screen lock and biometric prompt (Face ID, Touch ID or your passcode on iOS). The app only learns whether you were verified and never accesses or stores fingerprints, face data or other biometric information.</li>
 <li><strong>Add to Photos</strong> (iOS, optional): used only to save a keepsake card to your photo library. The app does not read your photos.</li>
 <li><strong>Tracking</strong> (iOS, optional): asked so the IDFA in section 2 can be used.</li>
@@ -65,10 +74,12 @@
 </ul>
 
 <h2>5. Retention and deletion</h2>
-<p>App data is removed from your device when you delete it in the app or uninstall the app. We keep no app data. An email address received through Send feedback (section 1) is deleted once we have replied, and within 3 months of receipt at the latest. Feedback text and app and device information are kept as a record of fixes and improvements while the app is offered, and deleted without delay if you ask. Crash reports from section 1 are kept in Firebase for 90 days and then deleted. Information Google processes for ads is retained under Google’s policies.</p>
+<p>Records and other information stored on your device are removed from the device when you delete them in the app or uninstall the app. We do not keep the contents of your records. An email address received through Send feedback (section 1) is deleted once we have replied, and within 3 months of receipt at the latest. Feedback text and app and device information are kept as a record of fixes and improvements while the app is offered, and deleted without delay if you ask. Crash reports from section 1 are kept in Firebase for 90 days and then deleted. Information Google processes for ads is retained under Google’s policies.</p>
+<p>The retention period for user-level and event-level usage statistics in section 1 is set to <strong>14 months</strong>. Expired data is deleted through Google’s monthly deletion process. New activity may restart the retention period for a user identifier. This setting does not apply to standard aggregated statistical reports, so aggregated statistics may remain longer. See <a href="https://support.google.com/analytics/answer/7667196?hl=en">Google Analytics data retention</a> for details.</p>
 
-<h2>6. Sharing</h2>
+<h2>6. Sharing and service providers</h2>
 <p>We do not share your personal information with third parties. Crash reports (section 1) are processed for us by Google LLC’s Firebase Crashlytics; when a crash happens they are sent over the network to Google’s servers, which may be in the United States or other countries, and kept for 90 days. Google also collects and processes information directly through the ad SDK in the app, as described in section 2, and it may be transferred to Google’s servers outside your country. In Google Play’s Data safety section, this information the ad SDK sends to Google is listed as “shared”, and in the App Store’s App Privacy section it is listed as data collected (with the device ID used to track you).</p>
+<p><strong>Google LLC’s Google Analytics for Firebase</strong> processes the usage statistics in section 1 for us. During app use, app activity, app and device information and the app-instance ID are sent over the network to Google’s servers, which may be in the United States or other countries, for usage analysis and service improvement. Retention is described in section 5, and you can stop transmission in the usage statistics setting described in section 1. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://support.google.com/analytics/answer/6004245?hl=en">How Google Analytics safeguards your data</a>.</p>
 <p>Send feedback (section 1) is processed for us by the following companies, and your feedback is transferred over the network to the United States when you send it. Nothing is transferred if you don’t use Send feedback, and not using it does not limit any other feature.</p>
 <ul>
 <li><strong>Cloudflare, Inc.</strong> (United States, <a href="https://www.cloudflare.com/privacypolicy/">privacy policy</a>): runs the feedback relay. It processes the feedback, email address, app and device information and IP address only while passing them on, and does not store them.</li>
@@ -80,7 +91,7 @@
 <p>The app is not directed to children under 13, and we do not knowingly collect information from them.</p>
 
 <h2>8. Your rights</h2>
-<p>All app data stays on your device, so you can view, edit and delete it directly in the app. You can change your ad choices as described in section 2. You can ask to see, correct or delete what you sent through Send feedback by emailing us (section 9). If you have questions, contact us below.</p>
+<p>You can view, edit and delete records and other information stored on your device directly in the app. You can turn off usage statistics as described in section 1 and change your ad choices as described in section 2. Contact the email address in section 9 about your rights to access, correct or delete information we process, including information you sent through Send feedback. Because we do not link usage statistics to names or email addresses, additional verification may be needed to locate the relevant information. If you have questions, contact us below.</p>
 
 <h2>9. Contact</h2>
 <p>90ms<br>Email: <a href="mailto:harumung.app@gmail.com">harumung.app@gmail.com</a></p>
